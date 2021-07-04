@@ -1,0 +1,130 @@
+{
+    "page": {
+        "common": {
+            "next": "Next",
+            "back": "Back",
+            "yes" : "Yes",
+            "no": "No",
+            "edit": "Edit",
+            "none": "None",
+            "accept": "Accept"
+        },
+        "demographics": {
+            "title": "Personal Information"
+        },
+        "conditions": {
+            "title": "Known Conditions",
+            "subtitle": "Please select any conditions that you have from the list below.",
+            "selected": "You indicated that you have the following known conditions:"
+        },
+        "questionaire":{
+            "title": "Additional Information"
+        },
+        "review":{
+            "title":"Review",
+            "subtitle": "Please review your information and make sure it looks correct."
+        },
+        "terms":{
+            "title":"Terms & Conditions",
+            "terms": "Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.<br/><br/>Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla.",
+            "acceptLabel": "I agree to these Terms & Conditions"
+        },
+        "done":{
+            "title": "Thank you!",
+            "subtitle": "Thank you for submitting your intake form. You are all set for your upcoming appointment!"
+        }
+    },
+    "label": {
+        "demographics": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "gender": "Gender",
+            "dateOfBirth": "Birthday",
+            "email": "Email",
+            "phone": "Phone",
+            "address": {
+                "full": "Address",
+                "street": "Street Address",
+                "city": "City",
+                "state": "State",
+                "zip": "Zip Code"
+            },
+            "maritalStatus": "Marital Status"
+        },
+        "questionaire":{
+            "activityDetails": "How much and how often?",
+            "smokes": "Do you smoke any tobacco products?",
+            "drinks": "Do you drink alcohol?",
+            "drugs": "Have you regularly used illicit drugs?",
+            "medications": "Please list any medications you are currently taking including non-prescription medications, vitamins and supplements.",
+            "allergies":"Please list any medication allergies or reactions.",
+            "surgeries":"List any surgeries or hospital stays you have had and their approximate date / year."
+        }
+    },
+    "validation": {
+        "demographics": {
+            "firstName": {
+                "required": "First name is required",
+                "min": "First name must be at least 2 characters long",
+                "max": "First name cannot be more than 50 characters long"
+            },
+            "lastName": {
+                "required": "Last name is required",
+                "min": "Last name must be at least 2 characters long",
+                "max": "Last name cannot be more than 50 characters long"
+            },
+            "email": {
+                "required": "Email is required",
+                "invalid": "Email is not valid",
+                "min": "Email must be at least 2 characters long",
+                "max": "Email cannot be more than 50 characters long"
+            },
+            "phone": {
+                "required": "Phone is required",
+                "invalid": "Phone is not valid"
+            },
+            "gender": {
+                "required": "Gender is required",
+                "min": "Gender must be at least 2 characters long",
+                "max": "Gender cannot be more than 50 characters long"
+            },
+            "dateOfBirth": {
+                "required": "Birthday is required",
+                "min": "Birthday must be at least 2 characters long",
+                "max": "Birthday cannot be more than 50 characters long"
+            },
+            "address": {
+                "street": {
+                    "required": "Street is required",
+                    "min": "Street must be at least 2 characters long",
+                    "max": "Street cannot be more than 50 characters long"
+                },
+                "city": {
+                    "required": "City is required",
+                    "min": "City must be at least 2 characters long",
+                    "max": "City cannot be more than 50 characters long"
+                },
+                "zip": {
+                    "required": "Zip code is required",
+                    "min": "Zip code must be at least 5 characters long",
+                    "max": "Zip code cannot be more than 50 characters long"
+                },
+                "state": {
+                    "required": "State is required",
+                    "length": "State must be 2 characters long"
+                }
+            }
+        },
+        "questionaire":{
+            "smokes":{
+                "min": "Required"
+            },
+            "drinks":{
+                "min": "Required"
+            },
+            "drugs":{
+                "min": "Required"
+            }
+        }
+    }
+}

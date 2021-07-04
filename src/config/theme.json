@@ -1,0 +1,22 @@
+{
+    "palette":{
+        "primary":{
+            "main": "#4F7F71"
+        },
+        "secondary":{
+            "main": "#686AD8"
+        }
+    },
+    "overrides":{
+        "MuiButton":{
+            "root":{
+                "borderRadius": "5em"
+            }
+        }
+    },
+    "typography": {
+        "button": {
+          "text-transform": "none"
+        }
+      }
+}
